@@ -1,0 +1,39 @@
+let tasks = [
+ 
+  {
+ 
+    'name'     : 'buy milk from the shop',
+ 
+    'duration' : 20,
+    
+    'priority' : 1
+ 
+  },
+ 
+  {
+ 
+    'name'     : 'clean the house ',
+ 
+    'duration' : 120,
+    
+    'priority' : 3
+ 
+  },
+ 
+  {
+ 
+    'name'     : 'study js functions',
+ 
+    'duration' : 180,
+    
+    'priority' : 1
+ 
+  }
+ 
+];
+
+const task_duration = tasks.map(function (task, index, array) {
+    return task.duration; 
+});
+ 
+console.log(task_duration)
